@@ -7,11 +7,48 @@
 
 .main {
   background-color: lightgrey;
-  font-family: 'Mukta Malar', sans-serif;
   font-family: 'Bitter', serif;
+  font-family: 'Mukta Malar', sans-serif;
+  height: 100%
 }
 
 .headers {
   display: inline-flex;
-  /*flex-direction: */
+  background-color: black;
+  color: white;
+  width: 100%;
 }
+
+.second-header {
+  margin: 15px 0 15px 10px;
+  font-size: 3em;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin: 10px;
+  font-family: 'Bitter';
+}
+
+.bio {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  background-image: url(images/business-cat-one.jpg);
+  height: 150px;
+}
+
+/*.two-box
+.three-box
+.four-box
+.five-box
+.six-box
+.seven-box
+.eight-box*/
+
+
