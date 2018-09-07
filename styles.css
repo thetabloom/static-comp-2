@@ -39,8 +39,46 @@
 }
 
 .card-header {
-  background-image: url(images/business-cat-one.jpg);
+  background-size: cover;                      
+  background-repeat: no-repeat;
+  background-position: center center; 
   height: 150px;
+  color: white;
+}
+
+.cat-image-one {
+  background-image: url(images/business-cat-one.jpg);
+}
+
+.cat-image-two {
+  background-image: url(images/business-cat-two.jpg);
+}
+
+.cat-image-three {
+  background-image: url(images/business-cat-three.png);
+}
+.cat-image-four {
+  background-image: url(images/business-cat-four.jpg);
+}
+.cat-image-five {
+  background-image: url(images/business-cat-five.jpg);
+}
+.cat-image-six {
+  background-image: url(images/business-cat-six.jpg);
+}
+.cat-image-seven {
+  background-image: url(images/business-cat-seven.jpg);
+}
+.cat-image-eight {
+  background-image: url(images/business-cat-eight.jpg);
+}
+
+
+.card-info {
+}
+
+.name-here {
+
 }
 
 /*.two-box
@@ -49,6 +87,6 @@
 .five-box
 .six-box
 .seven-box
-.eight-box*/
+.eight-box
 
 
