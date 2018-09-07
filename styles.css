@@ -13,7 +13,7 @@
 }
 
 .headers {
-  background-color: black;
+  background-color: #2b2b2b;
   color: white;
   width: 100%;
 }
@@ -47,10 +47,13 @@
   font-size: 3.7em;
   margin-right: 20px;
   margin-bottom: 20px;
+  font-family: 'Bitter';
 }
 
 .second-header {
   font-size: 3em;
+  padding: 40px 0 5px 24px;
+  color: #2b2b2b;
 }
 
 .cards {
@@ -58,7 +61,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 10px;
   margin: 25px;
-  font-family: 'Bitter';
+  /*font-family: 'Bitter';*/
 }
 
 .bio {
@@ -88,18 +91,23 @@
 .cat-image-three {
   background-image: url(images/business-cat-three.png);
 }
+
 .cat-image-four {
   background-image: url(images/business-cat-four.jpg);
 }
+
 .cat-image-five {
   background-image: url(images/business-cat-five.jpg);
 }
+
 .cat-image-six {
   background-image: url(images/business-cat-six.jpg);
 }
+
 .cat-image-seven {
   background-image: url(images/business-cat-seven.jpg);
 }
+
 .cat-image-eight {
   background-image: url(images/business-cat-eight.jpg);
 }
@@ -109,13 +117,15 @@
   line-height: 2em;
   padding: 20px 0 20px 20px;
   background: #FFFFFF;
-  width: 100%
+  width: 100%;
+  color: #2b2b2b;
 }
 
 .website {
   background-color: lightgrey;
   margin-right: 20px;
   padding-left: .5em;
+
 }
 
 .name-here {
