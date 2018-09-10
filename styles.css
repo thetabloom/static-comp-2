@@ -18,16 +18,33 @@
   width: 100%;
 }
 
+
+.admin-and-icons {
+  float: right;
+  margin: 20px 20px 2% 0;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.fa-github-square {
+  font-size: 1.5em;
+}
+
+.admin {
+  margin-top: 4px;
+}
+
+.fa-sort-down {
+  font-size: 1.3em;
+  color: #00bfff;
+}
+
+
 .bottom-of-header-bar {
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
-}
-
-.admin {
-  float: right;
-  margin-top: 20px;
-  margin: 20px 20px 2% 0;
 }
 
 .left-header-links {
@@ -42,11 +59,15 @@
   /*margin-right: 45%;*/
 }
 
-.to-win {
+.purr {
   font-size: 3.7em;
   margin-right: 20px;
   margin-bottom: 20px;
   font-family: 'Bitter';
+}
+
+.fa-github-alt {
+  font-size: .9em;
 }
 
 .second-header {
@@ -195,6 +216,8 @@
 .name-here {
 }
 
+@media screen and (min-width: 1115px) {
 
+}
 
 
