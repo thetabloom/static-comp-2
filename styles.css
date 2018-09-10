@@ -18,13 +18,14 @@
   width: 100%;
 }
 
+/*admin part of header*/
 
 .admin-and-icons {
   float: right;
   margin: 20px 20px 2% 0;
   display: inline-flex;
   justify-content: space-between;
-  width: 180px;
+  width: 172px;
 }
 
 .fa-github-square {
@@ -40,24 +41,32 @@
   color: #00bfff;
 }
 
-
 .bottom-of-header-bar {
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
 }
 
+/*header links*/
+
 .left-header-links {
   display: inline-flex;
   justify-content: space-between;
   width: 45%;
   font-size: 1.5em;
+  font-weight: 300;
   margin: 30px 0 0 20px;
 }
 
-.videos-header {
-  /*margin-right: 45%;*/
+.link-icon-color {
+  color: #00bfff;
 }
+
+.videos-header {
+  
+}
+
+/*website name*/
 
 .purr {
   font-size: 3.7em;
@@ -70,11 +79,15 @@
   font-size: .9em;
 }
 
+/*shares second header*/
+
 .second-header {
   font-size: 3em;
-  padding: 40px 0 5px 24px;
+  padding: 38px 0 28px 24px;
   color: #2b2b2b;
 }
+
+/*cards portion*/
 
 .cards {
   display: grid;
@@ -194,6 +207,8 @@
   
 }
 
+/*info portion of card*/
+
 .card-info {
   line-height: 2em;
   padding: 20px 0 20px 20px;
@@ -215,6 +230,8 @@
 
 .name-here {
 }
+
+/*media queries*/
 
 @media screen and (min-width: 1115px) {
 
