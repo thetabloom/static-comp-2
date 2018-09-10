@@ -36,7 +36,6 @@
   width: 45%;
   font-size: 1.5em;
   margin: 30px 0 0 20px;
-  border: 3px dotted green;
 }
 
 .videos-header {
@@ -58,9 +57,9 @@
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 10px;
-  margin: 25px;
+  margin: 0 10px 10px 10px;
   /*font-family: 'Bitter';*/
 }
 
@@ -144,8 +143,34 @@
   url(images/business-cat-eight.jpg);
 }
 
+.fa-share {
+  font-size: 2.9em;
+  padding: 10px 0 0 13px;
+}
+
+.fa-share:hover {
+  opacity: .25;
+}
+
 .view-text {
   float: right;
+  padding: 18px 18px 0 0;
+  display: flex;
+  flex-direction: column;
+  line-height: .9;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.views {
+  font-size: .8em;
+  letter-spacing: 1px;
+  padding-left: 3px;
+}
+
+.number-views {
+  font-size: 3em;
+  
 }
 
 .card-info {
@@ -162,16 +187,14 @@
   padding-left: .5em;
 }
 
-.name-here {
-
+.website:hover {
+  background-color: #e6e6e6;
+  color: #2d5986;
 }
 
-/*.two-box
-.three-box
-.four-box
-.five-box
-.six-box
-.seven-box
-.eight-box
+.name-here {
+}
+
+
 
 
