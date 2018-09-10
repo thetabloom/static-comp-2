@@ -119,66 +119,42 @@
 }
 
 .cat-image-one {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
+  background-image: 
   url(images/business-cat-one.jpg);
 }
 
 .cat-image-two {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
-   url(images/business-cat-two.jpg);
+  background-image: 
+  url(images/business-cat-two.jpg);
 }
 
 .cat-image-three {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
+  background-image: 
   url(images/business-cat-three.png);
 }
 
 .cat-image-four {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
+  background-image: 
   url(images/business-cat-four.jpg);
 }
 
 .cat-image-five {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
+  background-image: 
   url(images/business-cat-five.jpg);
 }
 
 .cat-image-six {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
+  background-image: 
   url(images/business-cat-six.jpg);
 }
 
 .cat-image-seven {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
+  background-image: 
   url(images/business-cat-seven.jpg);
 }
 
 .cat-image-eight {
-  background: 
-  linear-gradient(rgba(23,23,23,0) 0%, 
-                  rgba(23,23,23,0.51) 0%, 
-                  rgba(23,23,23,0.51) 100%),
+  background-image: 
   url(images/business-cat-eight.jpg);
 }
 
