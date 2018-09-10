@@ -81,42 +81,77 @@
 }
 
 .cat-image-one {
-  background-image: url(images/business-cat-one.jpg);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+  url(images/business-cat-one.jpg);
 }
 
 .cat-image-two {
-  background-image: url(images/business-cat-two.jpg);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+   url(images/business-cat-two.jpg);
 }
 
 .cat-image-three {
-  background-image: url(images/business-cat-three.png);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+  url(images/business-cat-three.png);
 }
 
 .cat-image-four {
-  background-image: url(images/business-cat-four.jpg);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+  url(images/business-cat-four.jpg);
 }
 
 .cat-image-five {
-  background-image: url(images/business-cat-five.jpg);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+  url(images/business-cat-five.jpg);
 }
 
 .cat-image-six {
-  background-image: url(images/business-cat-six.jpg);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+  url(images/business-cat-six.jpg);
 }
 
 .cat-image-seven {
-  background-image: url(images/business-cat-seven.jpg);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+  url(images/business-cat-seven.jpg);
 }
 
 .cat-image-eight {
-  background-image: url(images/business-cat-eight.jpg);
+  background: 
+  linear-gradient(rgba(23,23,23,0) 0%, 
+                  rgba(23,23,23,0.51) 0%, 
+                  rgba(23,23,23,0.51) 100%),
+  url(images/business-cat-eight.jpg);
 }
 
+.view-text {
+  float: right;
+}
 
 .card-info {
   line-height: 2em;
   padding: 20px 0 20px 20px;
-  background: #FFFFFF;
+  background: #F9F9F9;
   width: 100%;
   color: #2b2b2b;
 }
@@ -125,7 +160,6 @@
   background-color: lightgrey;
   margin-right: 20px;
   padding-left: .5em;
-
 }
 
 .name-here {
