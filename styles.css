@@ -28,6 +28,10 @@
   width: 172px;
 }
 
+.admin-and-icons:hover {
+   
+}
+
 .fa-github-square {
   font-size: 1.5em;
 }
@@ -58,12 +62,21 @@
   margin: 30px 0 0 20px;
 }
 
+.left-header-links:hover {
+
+}
+
 .link-icon-color {
   color: #00bfff;
 }
 
-.videos-header {
-  
+.link-header:hover, .fa-sort-down:hover {
+  text-shadow:
+                .5px .5px #00bfff,
+                .9px .9px #00bfff,
+                1.5px 1.5px #00bfff;
+        -webkit-transform: translateY(-.5px);
+        transform: translateY(-.5px);
 }
 
 /*website name*/
