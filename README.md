@@ -2,6 +2,8 @@
 
 ## Responsive Site for Turing Mod. 1 
 
+#### Second Static Comp. This one is to respect the integrity of the original design. Once we get out into the workforce - building out comps that reflect the designer’s choice in layout, spacing, font, imagery, and color to the smallest detail is a requirement.
+
 ### Link:
 https://thetabloom.github.io/static-comp-2/
 
