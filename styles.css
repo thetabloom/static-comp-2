@@ -111,8 +111,9 @@ h1 {
 .cards {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 0 10px 10px 10px;
+  padding-bottom: 10px;
 }
 
 .bio {
@@ -249,7 +250,6 @@ h1 {
   line-height: 43px;
 }
 
-
 .attach-number {
   color: #00bfff;
   font-size: 2.7em;
@@ -281,12 +281,9 @@ h1 {
     display: initial;
   }
 
-
   .left-header-links {
     width: 10%;
   }
-
-  
 
   .admin-and-icons {
     float: left;
