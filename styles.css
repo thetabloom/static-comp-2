@@ -71,15 +71,18 @@ body {
   color: #00bfff;
 }
 
-.burger:active,
 .burger:hover,
-.link-header:active,
-.link-header:hover {
+.burger:focus,
+.burger:active,
+.link-header:hover,
+.link-header:focus,
+.link-header:active {
   text-shadow: .5px .5px #00bfff,
                .9px .9px #00bfff,
                1.5px 1.5px #00bfff;
                -webkit-transform: translateY(-.5px);
                transform: translateY(-.5px);
+}
 }
 
 /*website name*/
@@ -178,7 +181,8 @@ h1 {
   padding: 10px 0 0 13px;
 }
 
-.fa-share:hover, 
+.fa-share:hover,
+.fa-share:focus, 
 .fa-share:active {
   opacity: .25;
 }
