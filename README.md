@@ -13,6 +13,7 @@ https://thetabloom.github.io/static-comp-2/
 
 
 ## My Version
-<img width="1440" alt="screen shot 2018-09-11 at 1 03 37 am" src="https://user-images.githubusercontent.com/25753508/45343616-9f5c9c00-b55e-11e8-8b14-f04b7f455524.png">
+<img width="1440" alt="screen shot 2018-09-11 at 1 07 55 am" src="https://user-images.githubusercontent.com/25753508/45343813-2c9ff080-b55f-11e8-83d4-2d137792c6b0.png">
+
 
 
