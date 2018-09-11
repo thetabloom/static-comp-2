@@ -59,7 +59,7 @@ body {
   font-size: 1.5em;
   font-weight: 300;
   justify-content: space-between;
-  margin: 30px 0 0 20px;
+  margin: 40px 0 0 20px;
   width: 45%;
 }
 
@@ -83,13 +83,12 @@ body {
                -webkit-transform: translateY(-.5px);
                transform: translateY(-.5px);
 }
-}
 
 /*website name*/
 
 .purr {
   font-family: 'Bitter';
-  font-size: 3.7em;
+  font-size: 4em;
   margin: 0 20px 20px 0;
 }
 
@@ -99,13 +98,9 @@ body {
 
 /*shares second header*/
 
-h1 {
-  margin: 0;
-}
-
 .second-header {
   color: #2b2b2b;
-  font-size: 1.2em;
+  font-size: 2em;
   padding: 38px 0 28px 24px;
 }
 
@@ -286,12 +281,19 @@ h1 {
   }
 
   .left-header-links {
+    margin: 33px 0 0 20px;
     width: 10%;
   }
 
   .admin-and-icons {
     float: left;
-    margin: 15px 0 10% 20px;
+    margin: 15px 0 20px 20px;
+  }
+
+  .purr {
+    font-family: 'Bitter';
+    font-size: 3.7em;
+    margin: 0 20px 5px 0;
   }
 }
 
