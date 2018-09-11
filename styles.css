@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  height: 100%;
+}
+
 .main {
   background-color: lightgrey;
   font-family: 'Bitter', serif;
@@ -20,10 +24,11 @@
 /*admin part of header*/
 
 .admin-and-icons {
-  float: right;
-  margin: 20px 20px 2% 0;
+  cursor:pointer;
   display: inline-flex;
+  float: right;
   justify-content: space-between;
+  margin: 20px 20px 2% 0;
   width: 172px;
 }
 
@@ -36,8 +41,8 @@
 }
 
 .fa-sort-down {
-  font-size: 1.3em;
   color: #00bfff;
+  font-size: 1.3em;
 }
 
 .bottom-of-header-bar {
@@ -48,38 +53,41 @@
 
 /*header links*/
 
-
-
 .left-header-links {
+  cursor: pointer;
   display: inline-flex;
-  justify-content: space-between;
-  width: 45%;
   font-size: 1.5em;
   font-weight: 300;
+  justify-content: space-between;
   margin: 30px 0 0 20px;
+  width: 45%;
+}
+
+.hide {
+  display: none;
 }
 
 .link-icon-color {
   color: #00bfff;
 }
 
-.link-header:hover, 
-.link-header:active {
-  text-shadow:
-                .5px .5px #00bfff,
-                .9px .9px #00bfff,
-                1.5px 1.5px #00bfff;
-        -webkit-transform: translateY(-.5px);
-        transform: translateY(-.5px);
+.burger:active,
+.burger:hover,
+.link-header:active,
+.link-header:hover {
+  text-shadow: .5px .5px #00bfff,
+               .9px .9px #00bfff,
+               1.5px 1.5px #00bfff;
+               -webkit-transform: translateY(-.5px);
+               transform: translateY(-.5px);
 }
 
 /*website name*/
 
 .purr {
-  font-size: 3.7em;
-  margin-right: 20px;
-  margin-bottom: 20px;
   font-family: 'Bitter';
+  font-size: 3.7em;
+  margin: 0 20px 20px 0;
 }
 
 .fa-github-alt {
@@ -88,36 +96,39 @@
 
 /*shares second header*/
 
+h1 {
+  margin: 0;
+}
+
 .second-header {
-  font-size: 3em;
-  padding: 38px 0 28px 24px;
   color: #2b2b2b;
+  font-size: 1.2em;
+  padding: 38px 0 28px 24px;
 }
 
 /*cards portion*/
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin: 0 10px 10px 10px;
-  /*font-family: 'Bitter';*/
 }
 
 .bio {
+  -moz-box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
+  -webkit-box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
+  box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
   display: flex;
   flex-direction: column;
-  -webkit-box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
-  -moz-box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
-  box-shadow: -5px 3px 26px -9px rgba(112,108,112,1);
 }
 
 .card-header {
-  background-size: cover;                      
-  background-repeat: no-repeat;
   background-position: center center; 
-  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;                      
   color: white;
+  height: 150px;
 }
 
 .cat-image-one {
@@ -161,6 +172,7 @@
 }
 
 .fa-share {
+  cursor: pointer;
   font-size: 2.9em;
   padding: 10px 0 0 13px;
 }
@@ -171,13 +183,13 @@
 }
 
 .view-text {
-  float: right;
-  padding: 18px 18px 0 0;
   display: flex;
   flex-direction: column;
-  line-height: .9;
+  float: right;
   font-weight: 300;
+  line-height: .9;
   margin-left: 5px;
+  padding: 18px 18px 0 0;
 }
 
 .views {
@@ -193,10 +205,10 @@
 /*info portion of card*/
 
 .card-info {
-  padding: 14px 0 20px 20px;
   background: #F9F9F9;
-  width: 100%;
   color: #2b2b2b;
+  padding: 14px 0 20px 20px;
+  width: 100%;
 }
 
 .name-here {
@@ -204,16 +216,17 @@
 }
 
 .date {
-  font-size: .95em;
   color: grey;
+  font-size: .95em;
 }
 
 .website {
   background-color: lightgrey;
+  cursor: pointer;
+  font-size: .87em;
   line-height: 38px;
   margin: 20px 20px 20px 0;
   padding-left: .5em;
-  font-size: .87em;
 }
 
 .website:hover, 
@@ -238,16 +251,20 @@
 
 
 .attach-number {
-  font-size: 2.7em;
   color: #00bfff;
+  font-size: 2.7em;
+  line-height: 20px;
   padding-bottom: 5px;
   padding-left: 2.5px;
-  line-height: 20px;
 }
 
 /*media queries*/
 
 @media screen and (max-width: 1080px) {
+
+  body {
+    cursor: pointer
+  }
 
   .left-header-links {
     width: 53%;
@@ -256,47 +273,24 @@
 
 @media screen and (max-width: 943px) {
 
-  body {
-      cursor: pointer
-    }
-
-  .left-header-links {
-      display: block;
-      margin: 0 0 20px 20px;
-    }
-}
-
-@media screen and (max-width: 641px) {
-
-  body {
-      cursor: pointer
-    }
-
-
-  .purr {
-    font-size: 3em;
+  .hidden {
+    display: none;
   }
 
-    .admin-and-icons {
+  .hide {
+    display: initial;
+  }
+
+
+  .left-header-links {
+    width: 10%;
+  }
+
+  
+
+  .admin-and-icons {
     float: left;
-    width: 190px;
-    padding-left: 20px;
-  }
-}
-
-
-@media screen and (max-width: 487px) {
-
-  .left-header-links {
-    font-size: 1.3em;
-    line-height: 49px;
-  }
-
-  .purr {
-    font-size: 3.2em;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
+    margin: 15px 0 10% 20px;
   }
 }
 
