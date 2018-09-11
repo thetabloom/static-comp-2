@@ -243,7 +243,11 @@
 
 /*media queries*/
 
-@media screen and (min-width: 1115px) {
+@media screen and (max-width: 1115px) {
+
+    body {
+      cursor: pointer
+    }
 
 }
 
