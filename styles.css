@@ -64,6 +64,10 @@ body {
   width: 45%;
 }
 
+.header-link-color {
+  color: grey;
+}
+
 .hide {
   display: none;
 }
